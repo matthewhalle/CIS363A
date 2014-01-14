@@ -1,0 +1,142 @@
+@charset "utf-8";
+body {
+	background-color: #c00;
+	font-family: tahoma, Arial;
+	font-size: 14px;
+	margin-top:0;	
+}
+#wrap {
+	clear:both;
+	height:auto;
+	width: 720px;
+	margin-left:auto;
+	margin-right:auto;
+	margin-top:10px;
+	margin-bottom:10px;	
+}
+#wrap1{
+	margin: 0 auto;
+	width:720px;
+	}
+#header {
+	margin: 0 auto;
+	padding: 0px;
+	border: 0;
+	
+}
+#media{
+	background-color:#FFF;
+	height:auto;
+	width:100px;
+	float:left;		
+}
+#content{
+	height: auto;
+	width:600px;
+	float:right;	
+	}
+#navigation, #footer{
+	font-family:tahoma;
+	font-size: 18pt;
+	font-weight: bold;
+	margin-left: auto;
+	margin-right: auto;
+	}
+#navigation ul, #footer ul {
+	margin:auto;
+	padding:0;
+	list-style:none;
+	width:720px;
+	float:left;
+	}
+#navigation ul li, #footer ul li{
+	float:left;
+	padding:10px 10px;
+	
+	margin-left:auto;
+	margin-right:auto;
+	}			
+#content2{
+	background-color:#FFF;
+	height:auto;
+	margin-top:0px;
+	margin-bottom:10px;
+	padding:10px 0px 1px 10px;
+	
+		}
+#content3{
+	background-color:#FFF;
+	height:auto;
+	margin-bottom:10px;
+	padding:10px 0px 1px 10px
+	
+		}
+
+#footer{
+	font-family:tahoma;
+	font-size: 18pt;
+	font-weight: bold;	
+}
+.indeximg {
+	margin-left: 25px;
+	margin-right: 25px;
+}
+a:link {
+	color: #000;
+	text-decoration: none;
+}
+a:visited {
+	text-decoration: none;
+	color: #000;
+}
+a:hover {
+	text-decoration: none;
+	color: #C30;
+}
+a:active {
+	text-decoration: none;
+}
+#contactcontent{
+	background-color:#FFF;
+	}
+.calendar {
+	margin-left: 90px;
+	margin-right: 100px;
+}
+#copyright{
+	clear:both;
+	font-family:tahoma;
+	font-size: 14pt;
+	font-weight: normal;
+	margin-left:auto;
+	margin-right:auto;	
+	}
+.photo {
+	height: 131px;
+	width: 98px;
+	-webkit-transition: all 1s linear 0.5s;
+	-moz-transition: all 1s linear 0.5s;
+	-ms-transition: all 1s linear 0.5s;
+	-o-transition: all 1s linear 0.5s;
+	transition: all 1s linear 0.5s;
+}
+.photo:hover {
+	height: 512px;
+	width: 384px;
+}
+.thumb {
+	margin: auto;
+}
+#feedbackwrap{
+	background-color: #FFF;
+	font-size: 14px;
+	padding:0 10px 0 10px;
+	}
+#feedbacktitle{
+	font-size: 36px;
+	text-align: center;
+	font-weight: bold;	
+	}
+#feedback{
+	text-align:center;
+	}
